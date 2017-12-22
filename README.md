@@ -1,0 +1,2 @@
+# rewsbot
+A bot.
