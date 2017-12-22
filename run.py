@@ -21,23 +21,10 @@ client = discord.Client()
 #Introduction text for shell opening (Dont need to tamper if you don't wan't too.)
 @bot.event
 async def on_ready():
-    print ("What is your ANGLED Name? ")
-    name = input()
-    print ("Welcome " +name)
-    print ("What is your password?")
-    password = input()
-    if password == "t":
-        time.sleep(2)
-        print("Validating account details...")
-        time.sleep(2)
-        print ("Premium user confirmed!")
-        time.sleep(2)
-        print ("ANGLED is Ready for use.")
-        time.sleep(2)
-        print ("Bot was developed by Rews all of his code was helped by and with Da532 and the forums of reddit and stack overflow")
-        print ("ANGLED is running on: " + bot.user.name)
-        print ("With the ID of: " + bot.user.id)
-        print ("-----------------------------------------------------")
+    print ("Bot was developed by Rews all of his code was helped by and with Da532 and the forums of reddit and stack overflow")
+    print ("ANGLED is running on: " + bot.user.name)
+    print ("With the ID of: " + bot.user.id)
+    print ("-----------------------------------------------------")
     else:
         print("Incorrect passsword, please retry entering by reloading the shell either through sourcecode.py or startbot.bat")
 
